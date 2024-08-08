@@ -35,7 +35,7 @@ app.use("/api-docs", swaggerUi.serve, swaggerUi.setup(swaggerDocs));
 
 // Initialize Keycloak Admin Client
 const kcAdminClient = new KcAdminClient({
-	baseUrl: "http://127.0.0.1:8080",
+	baseUrl: "http://10.3.0.12",
 	realmName: "master",
 });
 
