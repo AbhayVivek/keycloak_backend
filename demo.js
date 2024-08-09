@@ -26,7 +26,7 @@ const authenticate = async (req, res, next) => {
 	try {
 		await kcAdminClient.auth({
 			username: "admin",
-			password: "admin",
+			password: "password",
 			grantType: "password",
 			clientId: "admin-cli",
 		});
